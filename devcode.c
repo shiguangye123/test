@@ -4,9 +4,11 @@
 
 void main( void )
 {int i;
+int d=0;
 srand( (unsigned)time( NULL ) );          //初始化随机数
      for( i = 0; i < 10;i++ )                          //打印出10个随机数
           printf( " %d\n", rand() );
+	  d++;
 }
 
    根据上面的程序可以很容易得到0~1之间的随机数：
