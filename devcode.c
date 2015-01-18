@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>           //使用当前时钟做种子
-
+static int c;
 void main( void )
 {int i;
 int d=0;
